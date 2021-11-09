@@ -5,4 +5,4 @@ PCR and sequencing errors are corrected by UMI pattern matching and selecting re
 
 >perl umify_normalized_iso.pl sample.fasta
 
-The script creates a folder containing a log file with primer and UMI information as well as a new fasta files with corrected sequences for all reads and primer defined isotypes.
+The script creates a folder containing a log file with primer and UMI information as well as new fasta files with corrected sequences for all reads and primer defined isotypes.
