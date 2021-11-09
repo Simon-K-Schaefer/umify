@@ -1,23 +1,8 @@
 # umify
+Script for the UMI error correction
 
-Script for the UMI error correction for fasta files
+PCR and sequencing errors are corrected by UMI pattern matching and selecting reads containing valid UMIs. Reads with matching UMIS are corrected to the most abundant read per UMI. To exclude quantitative bias introduced during Multiplex PCR reads are normalized to unique mRNA sequences. Reads shorter than 50 nucleotides are filtered for additional quality control.
 
-Input: 
+>perl umify_normalized_iso.pl sample.fasta
 
-Sample.fasta
-
-Output:
-
-umify_iso.pl
-
-# umify_iso
-
-Script for the UMI error correction for fasta files
-
-Input: 
-
-Sample.fasta
-
-Output:
-
-umify_iso.pl
+The script creates a folder containing a log file with primer and UMI information as well as a new fasta files with corrected sequences for all reads and primer defined isotypes.
