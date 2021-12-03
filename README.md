@@ -23,6 +23,6 @@ Output: The script creates a folder containing a log file with primer and UMI in
 
 ## Citing umify
 
-If you are using immuneML in any published work, please cite:
+If you are using umify in any published work, please cite:
 
 "method paper star protocol"
