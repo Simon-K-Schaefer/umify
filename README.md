@@ -11,6 +11,10 @@ PCR and sequencing errors are corrected by UMI pattern matching and selecting re
 
 ## command line usage
 
+Please note the script only works with primers described here:
+"method paper star protocol"
+
+
 >perl umify_normalized_iso.pl sample.fasta
 
 
