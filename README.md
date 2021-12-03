@@ -10,3 +10,14 @@ PCR and sequencing errors are corrected by UMI pattern matching and selecting re
 
 
 Outpout: The script creates a folder containing a log file with primer and UMI information as well as new fasta files with corrected sequences for all reads and primer defined isotypes.
+
+## Installation
+
+
+
+
+## Citing umify
+
+If you are using immuneML in any published work, please cite:
+
+"method paper star protocol"
