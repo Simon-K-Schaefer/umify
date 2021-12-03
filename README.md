@@ -31,6 +31,12 @@ Output: The script creates a folder containing a log file with primer and UMI in
 
 ## Citing umify
 
+Copyright (c) 2021, Simon Schaefer
+All rights reserved.
+
+This source code is licensed under the BSD-style license found in the
+LICENSE file in the root directory of this source tree. 
+
 If you are using umify in any published work, please cite:
 
 "method paper pending"
