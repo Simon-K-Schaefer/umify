@@ -1,4 +1,4 @@
-# umify
+# umify_iso
 Script for UMI error correction
 
 Dependencies: Perl5
@@ -7,7 +7,7 @@ PCR and sequencing errors are corrected by UMI pattern matching and selecting re
 
 ## Installation
 
-https://github.com/Simon-K-Schaefer/umify/archive/refs/heads/main.zip
+https://github.com/Simon-K-Schaefer/umify_iso/archive/refs/heads/main.zip
 
 ## command line usage
 
