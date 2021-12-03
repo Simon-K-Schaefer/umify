@@ -16,7 +16,7 @@ or
 ## command line usage
 
 Please note the script only works with primers described here:
-"method paper star protocol"
+"method paper pending"
 
 
 >perl umify_normalized_iso.pl sample.fasta
@@ -33,4 +33,4 @@ Output: The script creates a folder containing a log file with primer and UMI in
 
 If you are using umify in any published work, please cite:
 
-"method paper star protocol"
+"method paper pending"
