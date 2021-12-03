@@ -15,7 +15,7 @@ https://github.com/Simon-K-Schaefer/umify_iso/archive/refs/heads/main.zip
 
 ## command line usage
 
-Please note the script only works with primers described here:
+Please note the script only works for samples created with primers as described here:
 "method paper pending"
 
 
