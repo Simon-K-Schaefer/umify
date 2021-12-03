@@ -7,11 +7,7 @@ PCR and sequencing errors are corrected by UMI pattern matching and selecting re
 
 ## Installation
 
-> wget https://github.com/Simon-K-Schaefer/umify
-
-or
-
-> curl https://github.com/Simon-K-Schaefer/umify
+https://github.com/Simon-K-Schaefer/umify/archive/refs/heads/main.zip
 
 ## command line usage
 
