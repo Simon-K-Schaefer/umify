@@ -1,6 +1,6 @@
 #! /usr/bin/perl
 # Simon K. Schaefer
-# Version 1.2
+# Version 1.3
 
 #Copyright (c) 2021, Simon Schaefer
 #All rights reserved.
@@ -101,7 +101,7 @@ if ($_ =~ m/^[ACT]{5}ACA[ACT]{5}ACA[ACT]{4}[ACGT]ATTCCTTTGACAAGGCATCC/i){
 	$Iso = "IgG1_2";
 }
 #Primer for IgG3:
-if ($_ =~ m/^[ACGT]{1}[ACT]{3}CA[ACT]{3}[ACGT]{1}TTCGGGGAAGTAGTCCTTGAC/i){
+if ($_ =~ m/^[ACGT]{1}[ACT]{3}CA[ACT]{3}[ACGT]{1}ATTCGGGGAAGTAGTCCTTGAC/i){
 	$IgG3++;
 	$Iso = "IgG3";
 }
@@ -173,70 +173,6 @@ print FILE2 $FID_hash_correted{$_}."\n";
 $primary_key = 0;
 #close output file
 close (FILE2);
-
-#open output file
-#open (FILE2, "> $dir/RID_$output_file") || die "problem opening $output_file\n";
-#RID clean up
-#foreach (keys %RID_hash){
-#	#print "$_\n";
-#	$UMI = $_;
-#	foreach (@{$RID_hash{$_}}){
-#	#print "$_\n";
-#	$sorting_hash{$_}++;		
-#	}
-#	@sorted_hash = sort { $sorting_hash{$b} <=> $sorting_hash{$a} } keys(%sorting_hash);
-#	$corrected = $sorted_hash[0];	#
-#
-#	foreach (keys @{$RID_hash{$_}}){	#
-#	$i_counter++;	#
-#	@sorted_hash = ();
-#	%sorting_hash = ();
-#	}			#
-#	$RID_hash_correted{$UMI."-$i_counter"} = $corrected;
-#	$i_counter = 0;		#
-#}
-
-#foreach (sort keys %RID_hash_correted){
-#$primary_key++;
-#print FILE2 ">$primary_key\|$_\n";
-#print FILE2 $RID_hash_correted{$_}."\n";
-#}
-#$primary_key = 0;
-#close output file
-#close (FILE2);
-
-#open output file
-#open (FILE2, "> $dir/FID_RID_$output_file") || die "problem opening $output_file\n";
-#FID/RID clean up
-#foreach (keys %FID_RID_hash){
-#	#print "$_\n";
-#	$UMI = $_;
-#	foreach (@{$FID_RID_hash{$_}}){
-#	#print "$_\n";
-#	$sorting_hash{$_}++;		
-#	}
-#	@sorted_hash = sort { $sorting_hash{$b} <=> $sorting_hash{$a} } keys(%sorting_hash);
-#	$corrected = $sorted_hash[0];	#
-#
-#	foreach (keys @{$FID_RID_hash{$_}}){	#
-#	$i_counter++;	#
-#	@sorted_hash = ();
-#	%sorting_hash = ();
-#	}			
-#	$FID_RID_hash_correted{$UMI."-$i_counter"} = $corrected; #
-#	$i_counter = 0;		#
-#}
-
-#foreach (keys %FID_RID_hash_correted){
-#$primary_key++;
-#print FILE2 ">$primary_key\|$_\n";
-#print FILE2 $FID_RID_hash_correted{$_}."\n";
-#}
-#$primary_key = 0;
-#close output file
-#close (FILE2);
-
-#output to log file
 
 #Iso Types
 print FILE1 "IgG1/IgG2:	$IgG1_2\n";
