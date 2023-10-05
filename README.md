@@ -39,4 +39,4 @@ LICENSE file in the root directory of this source tree.
 
 If you are using umify in any published work, please cite:
 
-"method paper pending"
+Werner A, Schäfer S, Gleußner N, Nimmerjahn F, Winkler TH. Determining immunoglobulin-specific B cell receptor repertoire of murine splenocytes by next-generation sequencing. STAR Protoc. 2022 Apr 9;3(2):101277. doi: 10.1016/j.xpro.2022.101277. PMID: 35434659; PMCID: PMC9010798.
